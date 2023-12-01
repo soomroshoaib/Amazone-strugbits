@@ -30,7 +30,7 @@ function Meincomp() {
   useEffect(() => {
     // setIsLoading(true);
     // fetch("https://jsonplaceholder.typicode.com/todos")
-    fetch("/getproducts")
+    fetch("https://sore-tan-calf-cape.cyclic.app/getproducts")
       .then((response) => response.json())
       .then((products) => {
         console.log(products);
