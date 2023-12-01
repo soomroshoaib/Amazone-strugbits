@@ -17,7 +17,7 @@ const Cart = () => {
 
   useEffect(() => {
     const addgetinddata = async () => {
-      const res = await fetch(`/getproductsone/${id}`, {
+      const res = await fetch(`https://sore-tan-calf-cape.cyclic.app/getproductsone/${id}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
