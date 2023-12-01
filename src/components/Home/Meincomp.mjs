@@ -64,7 +64,7 @@ function Meincomp() {
 
         <div className="right_slide">
           <h4>Fastive latest Launches</h4>
-          <img src="https://rs-site-cdn.rocketspark.com/images/nxxxm-ciq70/blog/a803eb70f98cd662f58146a75cd58316__4994/zoom668x586z100000cw668.png?etag=976f61d6604fb0b54050fbc65943560d" />
+          <img src="https://m.media-amazon.com/images/I/81DEf-4S36L._AC_UL320_.jpg" />
           <a href="#">See More</a>
         </div>
       </div>
