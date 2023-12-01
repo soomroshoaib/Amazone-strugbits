@@ -1,14 +1,14 @@
 import { Divider } from "@mui/material";
-import React, { useContext, useEffect, useState } from "react";
+import React, {  useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./cart.css";
-import LoginContaxt from '../Context/ContextProvider';
+//import LoginContaxt from '../Context/ContextProvider';
 
 const Cart = () => {
   const { id } = useParams("");
   
 
-  const {account, setaccount} = useContext(LoginContaxt)
+  // const {account, setaccount} = useContext(LoginContaxt)
 
   const [inddata, setinddata] = useState([]);
   console.log(inddata);
@@ -39,9 +39,6 @@ const Cart = () => {
 
   // add to cart
 
-  const addtocart = async()=>{
-
-  }
 
   return (
 
@@ -54,7 +51,7 @@ const Cart = () => {
             alt=""
           />
           <div className="cart_btn">
-            <button className="cart_btn1" onClick={()=>addtocart(inddata.id)}>Add to Cart</button>
+            <button className="cart_btn1" >Add to Cart</button>
             <button className="cart_btn2">Buy Now</button>
           </div>
         </div>

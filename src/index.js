@@ -4,14 +4,14 @@ import "./index.css";
 import App from "./App";
 
 import { BrowserRouter } from "react-router-dom";
-import ContextProvider from "./components/Context/ContextProvider";
+// import ContextProvider from "./components/Context/ContextProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <ContextProvider>
+  // <ContextProvider>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-   </ContextProvider>
+  //  </ContextProvider>
 );
 
